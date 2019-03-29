@@ -120,7 +120,7 @@ func ExampleAdd() {
 
 If your code changes so that the example is no longer valid, your build will fail.
 
-Running the package's test suite, we can see the example function is executed with no further arrangement from us:
+Running the package's test suite with switch `-v`, we can see the example function is executed with no further arrangement from us:
 
 ```bash
 $ go test -v
@@ -148,3 +148,4 @@ What we have covered:
 * Integers, addition
 * Writing better documentation so users of our code can understand its usage quickly
 * Examples of how to use our code, which are checked as part of our tests
+* Run test with switch `-v` to show individual tests
